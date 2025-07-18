@@ -15,7 +15,7 @@ public class Friday_Test {
 		ChromeOptions opt = new ChromeOptions();
 		//launch browser
 		ChromeDriver driver = new ChromeDriver(opt);
-		//upload URL
+		//To load the URL
 		driver.get("https://www.saucedemo.com/v1/");
 		//Maximize the Window
 		driver.manage().window().maximize();
@@ -28,7 +28,7 @@ public class Friday_Test {
 		//find elements in DOM page for password
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
 		
-		//find elements in DOM page for login page
+		//find elements in DOM page for login button
 		driver.findElement(By.id("login-button")).click();
 		
 		
