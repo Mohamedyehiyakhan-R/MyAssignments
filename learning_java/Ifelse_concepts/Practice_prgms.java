@@ -69,12 +69,8 @@ public class Practice_prgms {
 		else {
 			System.out.println("Sorry you cannot able to apply for loan !");
 		} */
-							
-			//Ques 5
-		
-		int[] arr= {2,4,6,8,};
-		System.out.println(arr[4]);
 	}
 
 }
+
 
