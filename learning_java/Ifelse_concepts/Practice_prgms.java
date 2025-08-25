@@ -67,7 +67,7 @@ public class Practice_prgms {
 			}
 		}
 		else {
-			System.out.println("No loan odraa!");
+			System.out.println("Sorry you cannot able to apply for loan !");
 		} */
 							
 			//Ques 5
@@ -77,3 +77,4 @@ public class Practice_prgms {
 	}
 
 }
+
